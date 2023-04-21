@@ -59,7 +59,7 @@ header p {
     text-transform: uppercase;
 
     margin-bottom: 1.7rem;
-    animation: leftright 600ms ease-in;
+    animation: leftToRight 600ms ease-in;
 
 }
 
@@ -69,7 +69,7 @@ header h1 {
 
     line-height: 4.8rem;
 
-    animation: rightleft 700ms 350ms backwards ease-in;
+    animation: rightToLeft 700ms 350ms backwards ease-in;
 
 }
 
@@ -79,7 +79,7 @@ main {
     gap: 3.2rem;
 
     margin-bottom: 8rem;
-    animation: downtop 700ms 550ms backwards;
+    animation: downToTop 700ms 550ms backwards;
 
 }
 
@@ -135,7 +135,7 @@ main {
     width: fit-content;
 }
 
-@keyframes leftright {
+@keyframes leftToRight {
     0% {
         opacity: 0;
         transform: translateX(-35px);
@@ -147,7 +147,7 @@ main {
     }
 }
 
-@keyframes rightleft {
+@keyframes rightToLeft {
     0% {
         opacity: 0;
         transform: translateX(35px);
@@ -159,7 +159,7 @@ main {
     }
 }
 
-@keyframes downtop {
+@keyframes downToTop {
     0% {
         opacity: 0;
         transform: translateY(35px);
