@@ -7,6 +7,8 @@
 
 <br>
 
+![alt text](./assets/grid.png)
+
 ## Functionalities
 
 - Grid;
